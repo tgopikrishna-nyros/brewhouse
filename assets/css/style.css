@@ -104,3 +104,7 @@
 .ip:hover{
 	border: 1px solid #FFB368;
 }
+
+.bg-btn{
+	background-color: #BFBFBF;
+}
