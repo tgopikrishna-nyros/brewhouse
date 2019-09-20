@@ -5,8 +5,7 @@
 	font-weight: bold;
 }
 
-.content{
-	width:98%; 
+.content{ 
 	margin: auto;
 }
 
@@ -45,7 +44,7 @@
 
 .sub-col{
 	margin: 10px;
-	border: 2px solid #D9D9D9;
+	border: 2px solid #E5E5E5;
 	border-radius: 5px;
 }
 
@@ -66,10 +65,11 @@
 
 .hov-effect:hover{
 	color: #FF794D;
+	text-decoration: none;
 }
 
 .bg-bottom{
-	background-color: #D9D9D9;
+	background-color: #D8D8D8;
 }
 
 .linker{
@@ -99,6 +99,7 @@
 	width: 300px;
 	height: 300px;
 	transform: rotate(-5deg);
+	opacity: 0.9;
 }
 
 .ip:hover{
@@ -106,5 +107,16 @@
 }
 
 .bg-btn{
+	background-color: #D8D8D8;
+	height: 180%;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.sub-btn{
 	background-color: #BFBFBF;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	border-radius: 10px;
 }
